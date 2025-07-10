@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/output.css">
+</head>
+<body>
+    <div class="bg-red-500 container"> box
+        <div class="w-1/2 h-1/2 bg-amber-400">box1</div>
+        <div class="w-1/2 h-1/2 bg-blue-600"> box2</div>
+    </div>
+    <!-- display about columns-->
+     <div class="columns-4 bg-amber-50"> 
+        <img src="../CSS/chicken.avif" alt="" >
+        <img src="../CSS/hipo.webp" alt="" >
+        <img src="../CSS/monkey.jpg" alt="">
+        <img src="../CSS/tiger.webp" alt="">
+     </div>
+     <!-- display grid -->
+      <div class="container grid grid-cols-2 gap4"></div>
+        <a href="#"
+            class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow-sm md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+            <img class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+                src="../CSS/chicken.avif" alt="">
+            <div class="flex flex-col justify-between p-4 leading-normal">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology
+                    acquisitions 2021</h5>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology
+                    acquisitions of 2021 so far, in reverse chronological order.</p>
+            </div>
+        </a>
+            <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+</div>
+  <!-- parent grid -->
+    <div class="grid grid-cols-4 gap-4">
+        <div class="border p-2 ring ring-red-500">01</div>
+        <div class="border p-2 ring ring-red-500">02</div>
+        <div class="border p-2 ring ring-red-500">03</div>
+        <div class="border p-2 ring ring-red-500">04</div>
+        <div class="border p-2 ring ring-red-500">05</div>
+        <!-- subgrid -->
+        <div class=" grid grid-cols-subgrid gap-4">
+            <div class="col-start-2 border p-2 ring ring-blue-500">06</div>
+            <div class="col-start-2  border p-2 ring ring-blue-500">07</div>
+            <div class="col-start-2 border p-2 ring ring-blue-500">08</div>
+            <div class="col-start-2  border p-2 ring ring-blue-500">09</div>
+        </div>
+    </div>
+    <!-- parent grid -->
+    <div class="grid grid-row-4 gap-4">
+        <div class="border p-2 ring ring-red-500">01</div>
+        <div class="border p-2 ring ring-red-500">02</div>
+        <div class="border p-2 ring ring-red-500">03</div>
+        <div class="border p-2 ring ring-red-500">04</div>
+        <div class="border p-2 ring ring-red-500">05</div>
+        <!-- subgrid -->
+        <div class=" grid grid-rows-subgrid gap-4">
+            <div class="row-start-2 border p-2 ring ring-blue-500">06</div>
+            <div class="row-start-2  border p-2 ring ring-blue-500">07</div>
+            <div class="row-start-2 border p-2 ring ring-blue-500">08</div>
+            <div class="row-start-2  border p-2 ring ring-blue-500">09</div>
+        </div>
+    </div>
+
+</body>
+</html>

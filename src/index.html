@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+<head>
+ <meta charset="UTF-8"  data-theme="dark">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+ <h1 class="text-3xl font-bold underline bg-amber-200 columns-2xl">
+   Hello world!
+</h1>
+<h2 class="text-5xl font-bold bg-blue-500"> hi</h2>
+<h3 class="fill-orange-200 bg-emerald-500"> class</h3>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing tailwindcss</title>
+    <link rel="stylesheet" href="..//CSS/">
+</head>
+
+<body>
+
+    <!-- create gallery -->
+    <div class="container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4">
+        <!-- card-image 1 -->
+        <div class="card-image ">
+            <img src="../CSS/chicken.avif" alt="chicken" class="rounded-lg">
+        </div>
+        <!-- card-image 2 -->
+        <div class="card-image">
+            <img src="..//CSS/monkey.jpg" alt="monkey" class="rounded-lg">
+        </div>
+        <!-- card-image 3 -->
+        <div class="card-image">
+            <img src="../CSS/tiger.webp" alt="tiger" class="rounded-lg">
+        </div>
+        <!-- card-image 4 -->
+        <div class="card-image">
+            <img src="../CSS/hipo.webp" alt="hipo" class="rounded-lg">
+        </div>
+    </div>
+    <!-- adding button -->
+    <div class="flex items-center justify-center">
+        <button class="p-2 bg-blue-400 font-bold rounded-lg w-25 text-white hover:bg-red-400 
+        focus:ring-cyan-400 focus:ring-2
+        active:text-black 
+        ">
+            <a href="https://www.pinterest.com/" target="_blank" class="visited:text-amber-200">Next</a>
+        </button>
+
+    </div>
+
+    <!--testimonial -->
+    <div class="container grid lg:grid-cols-4 gap-8 p-8 ">
+        <!-- testimonial 1 -->
+        <ul role="list " class="first:bg-amber-100 last:bg-pink-300 even:bg-blue-500 odd:bg-purple-300 ">
+            <li class=" mt-4 flex py-4 first:pt-0 last:pb-0 border w-50 h-20 justify-center items-center rounded-lg">
+                <img class="h-10 w-10 rounded-full" src="../CSS/chicken.avif" alt="" />
+                <div class="ml-3 overflow-hidden">
+                    <p class="text-sm font-medium text-gray-900 dark:text-white">Mr Chick</p>
+                    <p class="truncate text-sm text-gray-500 dark:text-gray-400">mr.chick@gmail.com</p>
+                </div>
+            </li>
+        <!-- testimonial 2 -->
+            <li class=" mt-4 flex py-4 first:pt-0 last:pb-0 border w-50 h-20 justify-center items-center rounded-lg">
+                <img class="h-10 w-10 rounded-full" src="../CSS/monkey.jpg" alt="" />
+                <div class="ml-3 overflow-hidden">
+                    <p class="text-sm font-medium text-gray-900 dark:text-white">Mr Monkey</p>
+                    <p class="truncate text-sm text-gray-500 dark:text-gray-400">mr.monkey@gmail.com</p>
+                </div>
+            </li>
+        <!-- testimonial 3 -->
+            <li class=" mt-4 flex py-4 first:pt-0 last:pb-0 border w-50 h-20 justify-center items-center rounded-lg">
+                <img class="h-10 w-10 rounded-full" src="../CSS/tiger.webp" alt="" />
+                <div class="ml-3 overflow-hidden">
+                    <p class="text-sm font-medium text-gray-900 dark:text-white">Mr Tiger</p>
+                    <p class="truncate text-sm text-gray-500 dark:text-gray-400">mr.tiger@gmail.com</p>
+                </div>
+            </li>
+        <!-- testimonial 4 -->
+            <li class="mt-4 flex py-4 first:pt-0 last:pb-0 border w-50 h-20 justify-center items-center rounded-lg">
+                <img class="h-10 w-10 rounded-full" src="../CSS/hipo.webp" alt="" />
+                <div class="ml-3 overflow-hidden">
+                    <p class="text-sm font-medium text-gray-900 dark:text-white">Mr Hippo</p>
+                    <p class="truncate text-sm text-gray-500 dark:text-gray-400">mr.hippo@gmail.com</p>
+                </div>
+            </li>
+        </ul>
+
+           <ul role="list " class="first:bg-amber-100 last:bg-pink-300 even:bg-blue-500 odd:bg-purple-300">
+            <li class=" mt-4 flex py-4 first:pt-0 last:pb-0 border w-50 h-20 justify-center items-center rounded-lg">
+                <img class="h-10 w-10 rounded-full" src="../CSS/chicken.avif" alt="" />
+                <div class="ml-3 overflow-hidden">
+                    <p class="text-sm font-medium text-gray-900 dark:text-white">Mr Chick</p>
+                    <p class="truncate text-sm text-gray-500 dark:text-gray-400">mr.chick@gmail.com</p>
+                </div>
+            </li>
+
+      
+        
+        <!-- testimonial 2 -->
+         
+            <li class=" mt-4 flex py-4 first:pt-0 last:pb-0 border w-50 h-20 justify-center items-center rounded-lg">
+                <img class="h-10 w-10 rounded-full" src="../CSS/monkey.jpg" alt="" />
+                <div class="ml-3 overflow-hidden">
+                    <p class="text-sm font-medium text-gray-900 dark:text-white">Mr Monkey</p>
+                    <p class="truncate text-sm text-gray-500 dark:text-gray-400">mr.monkey@gmail.com</p>
+                </div>
+            </li>
+
+       
+
+        <!-- testimonial 3 -->
+           
+            <li class=" mt-4 flex py-4 first:pt-0 last:pb-0 border w-50 h-20 justify-center items-center rounded-lg">
+                <img class="h-10 w-10 rounded-full" src="../CSS/tiger.webp" alt="" />
+                <div class="ml-3 overflow-hidden">
+                    <p class="text-sm font-medium text-gray-900 dark:text-white">Mr Tiger</p>
+                    <p class="truncate text-sm text-gray-500 dark:text-gray-400">mr.tiger@gmail.com</p>
+                </div>
+            </li>
+
+       
+        <!-- testimonial 4 -->
+        
+            <li class="mt-4 flex py-4 first:pt-0 last:pb-0 border w-50 h-20 justify-center items-center rounded-lg">
+                <img class="h-10 w-10 rounded-full" src="../CSS/hipo.webp" alt="" />
+                <div class="ml-3 overflow-hidden">
+                    <p class="text-sm font-medium text-gray-900 dark:text-white">Mr Hippo</p>
+                    <p class="truncate text-sm text-gray-500 dark:text-gray-400">mr.hippo@gmail.com</p>
+                </div>
+            </li>
+
+        </ul>
+         <ul role="list " class="first:bg-amber-100 last:bg-pink-300 even:bg-blue-500 odd:bg-purple-300">
+            <li class=" mt-4 flex py-4 first:pt-0 last:pb-0 border w-50 h-20 justify-center items-center rounded-lg">
+                <img class="h-10 w-10 rounded-full" src="../CSS/chicken.avif" alt="" />
+                <div class="ml-3 overflow-hidden">
+                    <p class="text-sm font-medium text-gray-900 dark:text-white">Mr Chick</p>
+                    <p class="truncate text-sm text-gray-500 dark:text-gray-400">mr.chick@gmail.com</p>
+                </div>
+            </li>
+        <!-- testimonial 2 -->
+         
+            <li class=" mt-4 flex py-4 first:pt-0 last:pb-0 border w-50 h-20 justify-center items-center rounded-lg">
+                <img class="h-10 w-10 rounded-full" src="../CSS/monkey.jpg" alt="" />
+                <div class="ml-3 overflow-hidden">
+                    <p class="text-sm font-medium text-gray-900 dark:text-white">Mr Monkey</p>
+                    <p class="truncate text-sm text-gray-500 dark:text-gray-400">mr.monkey@gmail.com</p>
+                </div>
+            </li>
+
+       
+
+        <!-- testimonial 3 -->
+           
+            <li class=" mt-4 flex py-4 first:pt-0 last:pb-0 border w-50 h-20 justify-center items-center rounded-lg">
+                <img class="h-10 w-10 rounded-full" src="../CSS/tiger.webp" alt="" />
+                <div class="ml-3 overflow-hidden">
+                    <p class="text-sm font-medium text-gray-900 dark:text-white">Mr Tiger</p>
+                    <p class="truncate text-sm text-gray-500 dark:text-gray-400">mr.tiger@gmail.com</p>
+                </div>
+            </li>
+
+       
+        <!-- testimonial 4 -->
+        
+            <li class="mt-4 flex py-4 first:pt-0 last:pb-0 border w-50 h-20 justify-center items-center rounded-lg">
+                <img class="h-10 w-10 rounded-full" src="../CSS/hipo.webp" alt="" />
+                <div class="ml-3 overflow-hidden">
+                    <p class="text-sm font-medium text-gray-900 dark:text-white">Mr Hippo</p>
+                    <p class="truncate text-sm text-gray-500 dark:text-gray-400">mr.hippo@gmail.com</p>
+                </div>
+            </li>
+
+        </ul>
+         <ul role="list " class="first:bg-amber-100 last:bg-pink-300 even:">
+            <li class=" mt-4 flex py-4 first:pt-0 last:pb-0 border w-50 h-20 justify-center items-center rounded-lg">
+                <img class="h-10 w-10 rounded-full" src="../CSS/chicken.avif" alt="" />
+                <div class="ml-3 overflow-hidden">
+                    <p class="text-sm font-medium text-gray-900 dark:text-white">Mr Chick</p>
+                    <p class="truncate text-sm text-gray-500 dark:text-gray-400">mr.chick@gmail.com</p>
+                </div>
+            </li>
+        <!-- testimonial 2 -->
+         
+            <li class=" mt-4 flex py-4 first:pt-0 last:pb-0 border w-50 h-20 justify-center items-center rounded-lg">
+                <img class="h-10 w-10 rounded-full" src="../CSS/monkey.jpg" alt="" />
+                <div class="ml-3 overflow-hidden">
+                    <p class="text-sm font-medium text-gray-900 dark:text-white">Mr Monkey</p>
+                    <p class="truncate text-sm text-gray-500 dark:text-gray-400">mr.monkey@gmail.com</p>
+                </div>
+            </li>
+
+       
+
+        <!-- testimonial 3 -->
+           
+            <li class=" mt-4 flex py-4 first:pt-0 last:pb-0 border w-50 h-20 justify-center items-center rounded-lg">
+                <img class="h-10 w-10 rounded-full" src="../CSS/tiger.webp" alt="" />
+                <div class="ml-3 overflow-hidden">
+                    <p class="text-sm font-medium text-gray-900 dark:text-white">Mr Tiger</p>
+                    <p class="truncate text-sm text-gray-500 dark:text-gray-400">mr.tiger@gmail.com</p>
+                </div>
+            </li>
+        <!-- testimonial 4 -->
+            <li class="mt-4 flex py-4 first:pt-0 last:pb-0 border w-50 h-20 justify-center items-center rounded-lg">
+                <img class="h-10 w-10 rounded-full" src="/CSS/hipo.webp" alt="" />
+                <div class="ml-3 overflow-hidden">
+                    <p class="text-sm font-medium text-gray-900 dark:text-white">Mr Hippo</p>
+                    <p class="truncate text-sm text-gray-500 dark:text-gray-400">mr.hippo@gmail.com</p>
+                </div>
+            </li>
+
+        </ul>
+
+    </div>
+
+</body>
+
+</html>
